@@ -1,0 +1,317 @@
+html {
+  overflow-y: scroll;
+}
+
+.center
+{
+  text-align: center;
+}
+
+body {
+  background-color: #c7c7c7; /*#F7FFE2;  /* #E2FFF7; */
+
+  font-family: Verdana, sans-serif;
+
+  /*
+  background-image: url("/Users/mattia/Pictures/sito_web/DSC_0167.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+
+/* Barra laterale intera */
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  border-bottom: 15%;
+  font-family: 'Courier New', monospace;
+  display: block;
+}
+
+/* Parte fissa con logo ed 'Escursioni' */
+#nav-header {
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0;
+  display: flex;
+  width: 20%;
+  height: 50px;
+  border-bottom: 1px solid white;
+}
+
+/* Menù (lista delle escursioni) */
+#nav-body {
+  margin-top: 65px;
+}
+
+#nav-title {
+  /*padding: 6px 8px 6px 16px;*/
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  z-index: 1;
+  float: left;
+  margin: auto;
+}
+
+#nav-icon-wrapper {
+  float: left;
+  width: 45px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+#nav-icon {
+  width: 100%;
+}
+
+#nav-photo {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  top: 0;
+}
+
+.nav-section-title {
+  background-color: gray;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-section-title {
+  background-color: gray;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* The navigation menu links */
+#sidenav a {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  /*color: #818181;*/
+  color: #ababab;
+  display: block;
+}
+
+#sidenav .nav-section-content a:not(:first-child) {
+  border-top: 1px solid;
+}
+#sidenav .nav-section-content a:not(:last-child) {
+  border-bottom: 1px solid;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+  color: #f3f3f3;
+  font-weight: bold;
+}
+
+#sidenav .todo {
+  text-decoration: line-through;
+}
+
+/***************/
+
+
+/* Style page content */
+.page {
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding: 20px;
+  font-size: 14px;
+}
+
+.intro-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 75%;
+  width: 75%;
+}
+
+.intro {
+  /*margin: 10px 10px 10px 0px;
+  border-radius: 5px;*/
+  display: block;
+}
+
+.intro figcaption {
+  background-color: darkslategray;
+  color: white;
+  font-style: italic;
+  text-align: justify;
+  text-align-last: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  word-wrap: break-word;
+  padding: 3px 10px;
+  border: 1px dotted black;
+  border-radius: 0 0 3px 3px;
+  border-top: 1px solid white;
+}
+
+.intro figcaption a {
+  color: gray;
+  text-decoration: none;
+}
+
+.intro figcaption a:hover {
+  background-color: lightgray;
+}
+
+.intro figcaption a:visited {
+  background-color: lightblue;
+}
+
+.intro img {
+  margin: 15px 10px 0px 10px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-bottom: 0px;
+  max-width: 100%;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main a:hover {
+  background-color: lightskyblue;
+}
+
+.main a:visited {
+  background-color: lightblue;
+}
+
+#header {
+  width: 75%;
+  /*background-color: #bce6d5;*/
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+  background-color: darkslategray;
+  color: white;
+  border: 2px solid black ;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.titolo_esc {
+  /*padding: 15px 8px 15px 8px ;*/
+
+  text-align: center;
+  font-size: 28px;
+}
+
+.sottotitolo_esc {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  width: 100%;
+}
+
+
+.foto_esc {
+  margin: 5px 0px 25px 0px;
+  border-radius: 5px;
+  max-width: 75%;
+  max-height: auto;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.foto_esc_vert {
+  margin: 5px 0px 25px 0px;
+  border-radius: 5px;
+  max-width: 50%;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.due_vert {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.due_vert img {
+  flex: 33.33%;
+  margin-right: 20px;
+  border-radius: 5px;
+  max-width: 35%;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.multiple-imgs {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.multiple-imgs .img {
+  flex: 1;
+  margin-right: 20px;
+  border-radius: 5px;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.multiple-imgs .img img {
+  border-radius: 5px;
+  max-width: 100%;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.cit {
+  text-align: justify;
+  font-size: 14px;
+  padding: 25px;
+}
+
+/*.cit*/ .cit-text {
+  font-style: italic;
+  font-family: arial;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/*.cit*/ .cit-source {
+  margin-top: 5px;
+  font-family: arial;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
