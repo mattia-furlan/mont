@@ -309,6 +309,14 @@ body {
   text-align: right;
 }
 
+.relazione {
+  background-color: darkslategray;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  font-style: italic;
+}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
