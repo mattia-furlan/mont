@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #c7c7c7; /*#F7FFE2;  /* #E2FFF7; */
+  background-color: antiquewhite; /*#F7FFE2;  /* #E2FFF7; */
 
   font-family: Verdana, sans-serif;
 
@@ -41,15 +41,14 @@ body {
   background-color: black;
   top: 0px;
   left: 0;
-  display: flex;
   width: 20%;
-  height: 50px;
-  border-bottom: 1px solid white;
+  height: 100px;
+  display: block;
 }
 
 /* Menù (lista delle escursioni) */
 #nav-body {
-  margin-top: 65px;
+  margin-top: 105px;
 }
 
 #nav-title {
@@ -58,10 +57,25 @@ body {
   font-size: 22px;
   color: white;
   display: block;
+  display: block;
   width: 100%;
   z-index: 1;
   float: left;
   margin: auto;
+}
+
+.nav-header-title {
+  /*padding: 6px 8px 6px 16px;*/
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  z-index: 1;
+  float: left;
+  margin: auto;
+  border-bottom: 1px solid white;
 }
 
 #nav-icon-wrapper {
@@ -170,7 +184,7 @@ body {
   padding: 3px 10px;
   border: 1px dotted black;
   border-radius: 0 0 3px 3px;
-  border-top: 1px solid white;
+  border-top: 1px solid gray;
 }
 
 .intro figcaption a {
@@ -264,6 +278,20 @@ body {
   margin-right: 20px;
   border-radius: 5px;
   max-width: 35%;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.tre_vert {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.tre_vert img {
+  margin-right: 20px;
+  border-radius: 5px;
+  max-width: 28%;
   border-width: 2px;
   border: 1px solid black;
 }
