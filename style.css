@@ -57,25 +57,30 @@ body {
   font-size: 22px;
   color: white;
   display: block;
-  display: block;
   width: 100%;
   z-index: 1;
   float: left;
   margin: auto;
+  text-align: center;
 }
 
 .nav-header-title {
   /*padding: 6px 8px 6px 16px;*/
-  padding: 10px 0;
+  padding: 10px ;
   text-decoration: none;
   font-size: 22px;
   color: white;
-  display: block;
   width: 100%;
   z-index: 1;
   float: left;
   margin: auto;
   border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.nav-header-title a {
+  text-decoration: none;
+  color: #ababab;
 }
 
 #nav-icon-wrapper {
@@ -119,7 +124,7 @@ body {
 }
 
 /* The navigation menu links */
-#sidenav a {
+#sidenav #nav-body a {
   padding: 10px 8px 10px 16px;
   text-decoration: none;
   font-size: 16px;
