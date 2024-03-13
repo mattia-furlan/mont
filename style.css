@@ -330,14 +330,14 @@ body {
 
 /*.cit*/ .cit-text {
   font-style: italic;
-  font-family: arial;
+  font-family: "Times New Roman";
   margin-bottom: 0px;
   margin-top: 5px;
 }
 
 /*.cit*/ .cit-source {
   margin-top: 5px;
-  font-family: arial;
+  font-family: "Times New Roman";
   margin-bottom: 0px;
   text-align: right;
 }
