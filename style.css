@@ -126,11 +126,19 @@ body {
 /* The navigation menu links */
 #sidenav #nav-body a {
   padding: 10px 8px 10px 16px;
-  text-decoration: none;
   font-size: 16px;
   /*color: #818181;*/
   color: #ababab;
   display: block;
+}
+
+#sidenav #nav-body a:not(.todo) {
+  text-decoration: none;
+}
+
+#sidenav .nav-section-content .todo {
+  text-decoration: line-through;
+  pointer-events: none;
 }
 
 #sidenav .nav-section-content a:not(:first-child) {
@@ -146,9 +154,6 @@ body {
   font-weight: bold;
 }
 
-#sidenav .todo {
-  text-decoration: line-through;
-}
 
 /***************/
 
