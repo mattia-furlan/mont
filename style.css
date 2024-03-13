@@ -132,24 +132,21 @@ body {
   display: block;
 }
 
-#sidenav #nav-body a:not(.todo) {
+#sidenav #nav-body .nav-section-item a:not(.todo) {
   text-decoration: none;
 }
 
-#sidenav .nav-section-content .todo {
+#sidenav .nav-section-content .nav-section-item .todo {
   text-decoration: line-through;
   pointer-events: none;
 }
 
-#sidenav .nav-section-content a:not(:first-child) {
-  border-top: 1px solid;
-}
-#sidenav .nav-section-content a:not(:last-child) {
-  border-bottom: 1px solid;
+#sidenav .nav-section-content .nav-section-item:not(:last-child) {
+  border-bottom: 1px solid white;
 }
 
 /* When you mouse over the navigation links, change their color */
-#sidenav a:hover {
+#sidenav .nav-section-item:hover {
   color: #f3f3f3;
   font-weight: bold;
 }
