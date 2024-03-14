@@ -35,6 +35,11 @@ body {
   display: block;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 /* Parte fissa con logo ed 'Escursioni' */
 #nav-header {
   position: fixed;
@@ -154,12 +159,41 @@ body {
 
 /***************/
 
+.img-text {
+  padding: 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.img-text .left {
+  margin-right: 30px;
+  flex: 1;
+}
+
+.img-text .right {
+  margin-left: 30px;
+  flex: 1;
+}
+
+.center {
+  text-align: center;
+}
 
 /* Style page content */
 .page {
   margin-left: 20%; /* Same as the width of the sidebar */
   padding: 20px;
   font-size: 14px;
+}
+
+.page img {
+  width: auto;
+  height: auto;
+  border: 5px 5px 0 0;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 .intro-wrapper {
@@ -209,11 +243,9 @@ body {
 
 .intro img {
   margin: 15px 10px 0px 10px;
-  border-radius: 5px 5px 0 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
   border-bottom: 0px;
   max-width: 100%;
 }
@@ -259,19 +291,14 @@ body {
 
 .foto_esc {
   margin: 5px 0px 25px 0px;
-  border-radius: 5px;
   max-width: 75%;
   max-height: auto;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .foto_esc_vert {
   margin: 5px 0px 25px 0px;
   border-radius: 5px;
   max-width: 50%;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .due_vert {
@@ -283,10 +310,7 @@ body {
 .due_vert img {
   flex: 33.33%;
   margin-right: 20px;
-  border-radius: 5px;
   max-width: 35%;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .tre_vert {
@@ -297,10 +321,7 @@ body {
 
 .tre_vert img {
   margin-right: 20px;
-  border-radius: 5px;
   max-width: 28%;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .multiple-imgs {
@@ -312,16 +333,10 @@ body {
 .multiple-imgs .img {
   flex: 1;
   margin-right: 20px;
-  border-radius: 5px;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .multiple-imgs .img img {
-  border-radius: 5px;
   max-width: 100%;
-  border-width: 2px;
-  border: 1px solid black;
 }
 
 .cit {
