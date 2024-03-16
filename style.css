@@ -35,9 +35,9 @@ body {
   display: block;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+#sidenav::-webkit-scrollbar {
+    width: 2px;
+    background: white; /* make scrollbar transparent */
 }
 
 /* Parte fissa con logo ed 'Escursioni' */
@@ -51,22 +51,8 @@ body {
   display: block;
 }
 
-/* Menù (lista delle escursioni) */
 #nav-body {
   margin-top: 105px;
-}
-
-#nav-title {
-  /*padding: 6px 8px 6px 16px;*/
-  text-decoration: none;
-  font-size: 22px;
-  color: white;
-  display: block;
-  width: 100%;
-  z-index: 1;
-  float: left;
-  margin: auto;
-  text-align: center;
 }
 
 .nav-header-title {
@@ -74,18 +60,27 @@ body {
   padding: 10px ;
   text-decoration: none;
   font-size: 22px;
-  color: white;
+  color: #ababab;
   width: 100%;
   z-index: 1;
   float: left;
   margin: auto;
-  border-bottom: 1px solid white;
   text-align: center;
 }
 
+.nav-header-title:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
 .nav-header-title a {
-  text-decoration: none;
   color: #ababab;
+  text-decoration: none;
+}
+
+.nav-header-title a:hover {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 #nav-icon-wrapper {
@@ -109,22 +104,14 @@ body {
 }
 
 .nav-section-title {
-  background-color: gray;
+  background-color: whitesmoke;
   text-align: center;
   font-size: 16px;
+  font-family: cursive;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.nav-section-title {
-  background-color: gray;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 2px;
   margin: 10px;
 }
 
@@ -341,7 +328,7 @@ body {
 
 .cit {
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
   padding: 25px;
 }
 
