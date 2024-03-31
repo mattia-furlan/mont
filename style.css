@@ -118,9 +118,33 @@ body {
 #sidenav #nav-body a {
   padding: 10px 8px 10px 16px;
   font-size: 16px;
-  /*color: #818181;*/
   color: #ababab;
   display: block;
+}
+/*
+#sidenav #nav-body a {
+  padding: 10px 8px 10px 16px;
+  font-size: 16px;
+  color: #ababab;
+  display: block;
+}*/
+
+
+#sidenav #nav-body .nav-section-item {
+  position: relative;
+}
+
+.nav-section-item .last {
+  font-size: 12px;
+  color: orange;
+  font-weight: bold;
+  display: block;
+}
+
+#sidenav #nav-body .nav-section-item .last {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #sidenav #nav-body .nav-section-item a:not(.todo) {
