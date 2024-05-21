@@ -3,9 +3,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../../style.css">
-	<link rel="icon" type="image/png" href="../../icon.png">
+	<!--<link rel="icon" type="image/png" href="../../icon.png">-->
 	<title>Colline del Ciul</title>
 	<meta name="keywords" content="meduna,alta val meduna,tramonti,val tramontina,frascola,cuel flurit,ciul,lago del ciul,ca zul,ca'zul,cualina,cualine,cualina alta,cualina bassa,collina alta, collina bassa,forcellone,forcellon,cengla,cengla da lis fontanis,canal dal vuar,canal piccolo di meduna, canal grande di meduna,rug dai pass"/>
+	<script type="text/javascript">
+	window.addEventListener("beforeunload", () => {
+	    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
+	    localStorage.setItem("scrollPositionNav", scrollPositionNav);
+
+	    var scrollPositionWindow = window.pageYOffset;
+	    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
+
+		console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+	});
+	window.addEventListener("load", () => {
+		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+		console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+
+  		//window.pageYOffset = scrollPositionWindow;
+  		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	});
+	</script>
 </head>
 
 <body>
@@ -127,7 +146,7 @@
 	<!--end of Navigation bar-->
 
 	<!-- Page content -->
-	<div class="page">
+	<div id="page">
 		<div id="header" style="position: relative;">
 	    	<h2 class="titolo_esc">Colline del Ciul</h2>
 	    	<p class="sottotitolo_esc">Dal lago del Ciul, val Meduna.</p>

@@ -3,9 +3,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../../style.css">
-	<link rel="icon" type="image/png" href="../../icon.png">
+	<!--<link rel="icon" type="image/png" href="../../icon.png">-->
 	<title>Pale dal Muart</title>
 	<meta name="keywords" content="belepeit,belepeit padovan,pale dal muart,paolini,trois,aereo chiusaforte,scjalute sante,plan da la vacje,naurazis,plananizza,plananize,forcje,patoc,zè"/>
+	<script type="text/javascript">
+	window.addEventListener("beforeunload", () => {
+	    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
+	    localStorage.setItem("scrollPositionNav", scrollPositionNav);
+
+	    var scrollPositionWindow = window.pageYOffset;
+	    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
+
+		console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+	});
+	window.addEventListener("load", () => {
+		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+		console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+
+  		//window.pageYOffset = scrollPositionWindow;
+  		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	});
+	</script>
 </head>
 
 <body>
@@ -127,7 +146,7 @@
 	<!--end of Navigation bar-->
 
 	<!-- Page content -->
-	<div class="page">
+	<div id="page">
 		<div id="header" style="position: relative;">
 	    	<h2 class="titolo_esc">Troi dal Muart al Belepéit</h2>
 	    	<p class="sottotitolo_esc">Al M. Belepéit per la Scjalùte Sante e la Pale dal Muart</p>

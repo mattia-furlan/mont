@@ -185,13 +185,13 @@ body {
 }
 
 /* Style page content */
-.page {
+#page {
   margin-left: 20%; /* Same as the width of the sidebar */
   padding: 20px;
   font-size: 14px;
 }
 
-.page img {
+#page img {
   width: auto;
   height: auto;
   border: 5px 5px 0 0;

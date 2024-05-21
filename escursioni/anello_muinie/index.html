@@ -3,9 +3,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../../style.css">
-	<link rel="icon" type="image/png" href="../../icon.png">
+	<!--<link rel="icon" type="image/png" href="../../icon.png">-->
 	<title>Anello Muinie</title>
 	<meta name="keywords" content="muinie,pisimoni,cenge pisimoni,cengle alte,plagne,tralba,stua alta,forcje di sore,cuel di sore,cenglon,crostis,val alba,prima cengia pisimoni,seconda cengia pisimoni,ciuc da la muinie,riu di place"/>
+	<script type="text/javascript">
+	window.addEventListener("beforeunload", () => {
+	    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
+	    localStorage.setItem("scrollPositionNav", scrollPositionNav);
+
+	    var scrollPositionWindow = window.pageYOffset;
+	    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
+
+		console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+	});
+	window.addEventListener("load", () => {
+		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+		console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+
+  		//window.pageYOffset = scrollPositionWindow;
+  		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	});
+	</script>
 </head>
 
 <body>
@@ -127,7 +146,7 @@
 	<!--end of Navigation bar-->
 
 	<!-- Page content -->
-	<div class="page">
+	<div id="page">
 		<div id="header" style="position: relative;">
 	    	<h2 class="titolo_esc">Anello della Muinie</h2>
 	    	<p class="sottotitolo_esc">Anello in versante Ovest del Pisimoni: Roseàn - cenglons - Cengle Alte - Ciuc da la Muinie - I° cengia Ovest Pisimoni - Crostis</p>

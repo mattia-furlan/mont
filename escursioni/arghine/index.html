@@ -3,9 +3,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../../style.css">
-	<link rel="icon" type="image/png" href="../../icon.png">
+	<!--<link rel="icon" type="image/png" href="../../icon.png">-->
 	<title>Àrghine</title>
 	<meta name="keywords" content="arghine,resiutta,povici,lavara,plechie,spic,criuze,vetta criuze,resartico,rio nero"/>
+	<script type="text/javascript">
+	window.addEventListener("beforeunload", () => {
+	    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
+	    localStorage.setItem("scrollPositionNav", scrollPositionNav);
+
+	    var scrollPositionWindow = window.pageYOffset;
+	    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
+
+		console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+	});
+	window.addEventListener("load", () => {
+		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+		console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+
+  		//window.pageYOffset = scrollPositionWindow;
+  		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	});
+	</script>
 </head>
 
 <body>
@@ -127,7 +146,7 @@
 	<!--end of Navigation bar-->
 
 	<!-- Page content -->
-	<div class="page">
+	<div id="page">
 		<div id="header" style="position: relative;">
 	    	<h2 class="titolo_esc">M. Àrghine</h2>
 	    	<p class="sottotitolo_esc">In traversata dal Resartico al Rio Nero, via Pusti Gost, Vetta Criuze e il M. Plechie</p>
@@ -140,7 +159,7 @@
 		<div class="intro-wrapper">
 			<div class="intro">
 				<img src="resized_photos/da_resiutta_done.JPG" />
-				<figcaption>Da Resiutta, con lo Spic evidente a sx. Il costone dello Spic racchiude a Sud il canale Lusument, delimitato a Nord dal costone in secondo piano, facente capo alla q1320 e al Pusti Gost; quest'ultimo costone divide il canale Lusument dal vallone del rio Puntuz. La forcella del rio Puntuz si trova fra la q1320 e Vetta Criuze (anch'essa 1320m), da qui nascosta. Viene evidenziato il crinale che sale al Lávara e su cui si trova il M. Àrghine.</figcaption>
+				<figcaption>Panoramica della zona, da Resiutta.</figcaption>
 			</div>
 			<div class="intro">
 				<img src="resized_photos/da_povici.JPG" />
@@ -158,51 +177,42 @@
 			<hr/>
 			<p>Per l'ennesima volta salgo per il canale Lusument; a differenza della <a href="/escursioni/vetta_criuze/">volta scorsa</a>, scelgo l'accesso mediano al Pusti Gost, ovvero quello descritto in Trois Neris, in prossimità di due enormi macigni.</p>
 			<img src="resized_photos/08_17.JPG" class="foto_esc" />
+			<img src="resized_photos/08_16_02.JPG" class="foto_esc" />
 			<p>Effettivamente è davvero un bel viaz che con un traverso porta nel Pusti Gost; ha il vantaggio che è più facile trovarlo in discesa.</p>
 			<img src="resized_photos/08_53.JPG" class="foto_esc" />
 			<p>Dal crinale del Pusti Gost, ormai affacciatomi sul vallone del rio Puntuz, appare questo bello spigolo, facente capo all'antecima Nord del M. Àrghine. </p>
 			<img src="resized_photos/09_46.JPG" class="foto_esc" />
-			<p>La scorsa volta avevamo proseguito per cresta e poi eravamo scesi, senza traccia, ad intercettarne una buona; questa volta invece ho traversato subito, inizialmente su ottima traccia ma che poi si perde... mannaggia!</p>
-			<img src="resized_photos/09_58.JPG" class="foto_esc_vert" />
+			<img src="resized_photos/09_55_35.JPG" class="foto_esc" />
+			<p>La scorsa volta avevamo proseguito per cresta e poi eravamo scesi, senza traccia, ad intercettarne una buona; questa volta invece ho traversato subito, inizialmente su ottima traccia ma che poi si perde... uffa!</p>
+			<img src="resized_photos/10_17_05.JPG" class="foto_esc" />
 			<p>La <a href="/escursioni/punta_salvotis/">Punta Salvotis</a> con il facile canale Est; col binocolo si vede l'omino costruito da me e Greta in cima. Peccato che da foto non renda il magnifico colore del bosco alla base.</p>
 			<img src="resized_photos/10_06.JPG" class="foto_esc" />
-			<p>Comunque in prossimità della forcella a Nord di Vetta Criuze mi sono tenuto più alto, in dx orografica, e una buona traccia l'ho trovata. Ho anche visto una traccia che passa per quei lastroni che caratterizzano la parte terminale del vallone del rio Puntuz in dx orografica: ciò significa che si può continuare per cresta dal Pusti Gost e traversare lì in alto, forse è la cosa più comoda, a cui avevamo pensato anche un anno fa ma non sapevamo se ci fossero dei salti in mezzo. <br/> Poco prima della forcella ho trovato questo stupendo quanto spazio clapusç!</p>
+			<p>Comunque in prossimità della forcella a Nord di Vetta Criuze mi sono tenuto più alto, in dx orografica, e una buona traccia l'ho trovata. Ho anche visto una traccia che passa per quei lastroni che caratterizzano la parte terminale del vallone del rio Puntuz in dx orografica: ciò significa che si può continuare per cresta dal Pusti Gost e traversare lì in alto, forse è la cosa più comoda, a cui avevamo pensato anche un anno fa ma non sapevamo se ci fossero dei salti in mezzo. <br/> Poco prima della forcella ho trovato questo stupendo quanto spazio clapusç.</p>
 			<img src="resized_photos/10_23.JPG" class="foto_esc" />
 			<p>Finalmente arrivo alla forcella a Nord di Vetta Criuze.</p>
-			<img src="resized_photos/10_25.JPG" class="foto_esc" />
+			<img src="resized_photos/10_25_16.JPG" class="foto_esc" />
+			<img src="resized_photos/10_18_50.JPG" class="foto_esc" />
 			<p>Verso la val Resia, col coloratissimo M. Pléchie su cui transiterò durante la discesa.</p>
 			<img src="resized_photos/10_40.JPG" class="foto_esc" />
-			<p>La strada tanto facile non è.</p>
-			<img src="resized_photos/11_40.JPG" class="foto_esc" />
-			<p>Con pazienza arrivo in un bel anfiteatro sotto le pareti, dove parte il facile canale che avevo ben studiato binocolando dal Cuzzer e che porta appena sotto la cima.</p>
-			<img src="resized_photos/12_23.JPG" class="foto_esc" />
-			<p>Dalla forcelletta verso la dorsale Palòn dei Zábus - Punta Salvotis - Uarchec, che divide il vallone del Resartico dal vallone di Serai. Sul cengione boscoso in centro foto passa il percorso della <a href="/escursioni/miniere_resartico/">miniera del Resartico</a>.</p>
-			<img src="resized_photos/12_48.JPG" class="foto_esc" />
-			<p>Dalla forcelletta di cresta sotto la cima, con in vista l'antecima Nord q1549. Il canale in foto poi precipita orridamente in alta val Resartico.</p>
-			<img src="resized_photos/12_49.JPG" class="foto_esc_vert" />
-			<p>In quattro e quattr'otto sono arrivo in cima, vergine d'ogni segno. <br/> In foto l'antecima Nord, con il crestone che che scende fino a Vetta Criuze (al culmine di quella striscia di bosco coloratissima). Dopo Vetta Criuze, la dirimpettaia q1320 a cavallo fra i rii Puntuz e Lusument, la q1264 e lo Spic. Ho visto che i numerosi risalti di cresta fra l'antecima Nord del M. Àrghine e Vetta Criuze sono facilmente accessibili, non fosse per la spaventosa quantità di mughi.</p>
+			<p>Già che ci sono, faccio tappa a Vetta Criuze.</p>
+			<img src="resized_photos/10_59_21.JPG" class="foto_esc" />
+			<img src="resized_photos/12_24_08.JPG" class="foto_esc" />
+			<p>Ormai è quasi fatta: in foto l'antecima Nord.<br/> Il canale in foto poi precipita orridamente in alta val Resartico.</p>
+			<img src="resized_photos/12_48_18.JPG" class="foto_esc" />
+			<p>In quattro e quattr'otto sono arrivo in cima, vergine d'ogni segno. Non che durante il percorso, peraltro piuttosto complesso, abbia mai trovato nulla. <br/></p>
 			<img src="resized_photos/12_54.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
-			<img src="resized_photos/13_10.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
-			<img src="resized_photos/13_11.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
 			<img src="resized_photos/13_12.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
+			<img src="resized_photos/13_29_13.JPG" class="foto_esc" />
+			<p>Speriamo che sia l'ometto costruito sia solido; so chi è stato su quella «puartate» fra i monti Crespana e Lávara.</p>
+			<img src="resized_photos/13_10.JPG" class="foto_esc" />
+			<p>Già che ci sono salgo - o meglio <i>scendo</i> - anche sull'antecima Nord, cosa che ho scoperto solo al momento essere possibile.</p>
 			<img src="resized_photos/13_17.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
-			<img src="resized_photos/13_18.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
-			<img src="resized_photos/13_29.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
-			<img src="resized_photos/14_23.JPG" class="foto_esc_vert" />
-			<p>Effettivamente</p>
+			<p>Il paretone Est del M. Àrghine: effettivamente c'era un bel salto dalla cima.</p>
 			<img src="resized_photos/15_23.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
+			<p>Scendo per il monte Pléchie: percorso per nulla scontato.</p>
 			<img src="resized_photos/15_50.JPG" class="foto_esc" />
-			<p>Effettivamente</p>
+			<p>Il crocefisso citato dalla relazione di Trois Neris, che ovviamente non trovavo. Vi assicuro che se non lo si trova non si scende e diventano guai seri.</p>
 			<img src="resized_photos/16_29.JPG" class="foto_esc_vert" />
-			<p>Effettivamente</p>
 			<img src="resized_photos/16_36.JPG" class="foto_esc" />
 
 		</div>
