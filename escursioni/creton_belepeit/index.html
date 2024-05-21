@@ -11,17 +11,17 @@
 	    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
 	    localStorage.setItem("scrollPositionNav", scrollPositionNav);
 
-	    var scrollPositionWindow = window.pageYOffset;
+	    var scrollPositionWindow = window.scrollY;
 	    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
 
 		console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
 	});
-	window.addEventListener("load", () => {
+	document.addEventListener("DOMContentLoaded", () => {
 		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
 		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
 		console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
 
-  		//window.pageYOffset = scrollPositionWindow;
+  		//window.scrollY = scrollPositionWindow;
   		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
 	});
 	</script>
