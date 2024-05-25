@@ -1,0 +1,378 @@
+html {
+  overflow-y: scroll;
+}
+
+.center
+{
+  text-align: center;
+}
+
+body {
+  background-color: antiquewhite; /*#F7FFE2;  /* #E2FFF7; */
+
+  font-family: Verdana, sans-serif;
+
+  /*
+  background-image: url("/Users/mattia/Pictures/sito_web/DSC_0167.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+
+/* Barra laterale intera */
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  border-bottom: 15%;
+  font-family: 'Courier New', monospace;
+  display: block;
+}
+
+#sidenav::-webkit-scrollbar {
+    width: 2px;
+    background: white; /* make scrollbar transparent */
+}
+
+/* Parte fissa con logo ed 'Escursioni' */
+#nav-header {
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0;
+  width: 20%;
+  height: 100px;
+  display: block;
+  z-index: 1;
+}
+
+#nav-body {
+  margin-top: 105px;
+}
+
+.nav-header-title {
+  padding: 10px ;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ababab;
+  width: 100%;
+  z-index: 1;
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-header-title:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+.nav-header-title a {
+  color: #ababab;
+  text-decoration: none;
+}
+
+.nav-header-title a:hover {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav-icon-wrapper {
+  float: left;
+  width: 45px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+#nav-icon {
+  width: 100%;
+}
+
+#nav-photo {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  top: 0;
+}
+
+.nav-section-title {
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+/* The navigation menu links */
+#sidenav #nav-body a {
+  padding: 10px 8px 10px 16px;
+  font-size: 16px;
+  color: #ababab;
+  display: block;
+}
+
+#sidenav #nav-body .nav-section-item {
+  position: relative;
+}
+
+.nav-section-item .last {
+  font-size: 12px;
+  color: orange;
+  font-weight: bold;
+  display: block;
+}
+
+#sidenav #nav-body .nav-section-item .last {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#sidenav #nav-body .nav-section-item a:not(.todo) {
+  text-decoration: none;
+}
+
+#sidenav .nav-section-content .nav-section-item .todo {
+  text-decoration: line-through;
+  pointer-events: none;
+}
+
+#sidenav .nav-section-content .nav-section-item:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav .nav-section-item:hover {
+  color: #f3f3f3;
+  font-weight: bold;
+}
+
+
+/***************/
+
+.img-text {
+  padding: 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.img-text .left {
+  margin-right: 30px;
+  flex: 1;
+}
+
+.img-text .right {
+  margin-left: 30px;
+  flex: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Style page content */
+#page {
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding: 20px;
+  font-size: 14px;
+}
+
+#page img {
+  width: auto;
+  height: auto;
+  border: 5px 5px 0 0;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.intro-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 75%;
+  width: 75%;
+}
+
+.intro {
+  /*margin: 10px 10px 10px 0px;
+  border-radius: 5px;*/
+  display: block;
+}
+
+.intro figcaption {
+  background-color: darkslategray;
+  color: white;
+  font-style: italic;
+  text-align: justify;
+  text-align-last: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  word-wrap: break-word;
+  padding: 3px 10px;
+  border: 1px dotted black;
+  border-radius: 0 0 3px 3px;
+  border-top: 1px solid gray;
+}
+
+.intro figcaption a {
+  color: gray;
+  text-decoration: none;
+}
+
+.intro figcaption a:hover {
+  background-color: lightgray;
+}
+
+.intro figcaption a:visited {
+  background-color: lightblue;
+}
+
+.intro img {
+  margin: 15px 10px 0px 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 0px;
+  max-width: 100%;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main a:hover {
+  background-color: lightskyblue;
+}
+
+.main a:visited {
+  background-color: lightblue;
+}
+
+#header {
+  width: 75%;
+  /*background-color: #bce6d5;*/
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+  background-color: darkslategray;
+  color: white;
+  border: 2px solid black ;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.titolo_esc {
+  /*padding: 15px 8px 15px 8px ;*/
+
+  text-align: center;
+  font-size: 28px;
+}
+
+.sottotitolo_esc {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  width: 100%;
+}
+
+
+.foto_esc {
+  margin: 5px 0px 25px 0px;
+  max-width: 75%;
+  max-height: auto;
+}
+
+.foto_esc_vert {
+  margin: 5px 0px 25px 0px;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+.due_vert {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.due_vert img {
+  flex: 33.33%;
+  margin-right: 20px;
+  max-width: 35%;
+}
+
+.tre_vert {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.tre_vert img {
+  margin-right: 20px;
+  max-width: 28%;
+}
+
+.multiple-imgs {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 5px 0px 25px 0px;
+}
+
+.multiple-imgs .img {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.multiple-imgs .img img {
+  max-width: 100%;
+}
+
+.cit {
+  text-align: justify;
+  font-size: 16px;
+  padding: 25px;
+}
+
+/*.cit*/ .cit-text {
+  font-style: italic;
+  font-family: "Times New Roman";
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/*.cit*/ .cit-source {
+  margin-top: 5px;
+  font-family: "Times New Roman";
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.relazione {
+  background-color: lightslategray;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  font-style: italic;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
