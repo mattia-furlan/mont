@@ -1,0 +1,15 @@
+window.addEventListener("beforeunload", () => {
+    var scrollPositionNav = document.querySelector("#sidenav").scrollTop;
+    localStorage.setItem("scrollPositionNav", scrollPositionNav);
+
+    var scrollPositionWindow = window.scrollY;
+    localStorage.setItem("scrollPositionWindow", scrollPositionWindow);
+
+	//console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+});
+document.addEventListener("DOMContentLoaded", () => {
+	var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+	var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+	//console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+	document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+});

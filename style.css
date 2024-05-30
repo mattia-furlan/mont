@@ -205,17 +205,21 @@ body {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  max-width: 75%;
   width: 75%;
 }
 
 .intro {
   /*margin: 10px 10px 10px 0px;
   border-radius: 5px;*/
-  display: block;
+  display: table;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro figcaption {
+  display: table-caption;
+  caption-side: bottom ;
   background-color: darkslategray;
   color: white;
   font-style: italic;
@@ -223,6 +227,7 @@ body {
   text-align-last: center;
   margin-left: auto;
   margin-right: auto;
+  /*width: 75%;*/
 
   word-wrap: break-word;
   padding: 3px 10px;
