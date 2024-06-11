@@ -8,15 +8,17 @@ html {
 }
 
 body {
-  background-color: antiquewhite; /*#F7FFE2;  /* #E2FFF7; */
+  background-color: lavender; /*#F7FFE2;  /* #E2FFF7; */
 
   font-family: Verdana, sans-serif;
 
-  /*
-  background-image: url("/Users/mattia/Pictures/sito_web/DSC_0167.JPG");
+  
+  background-image: url("/sfondo.JPG");
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; */
+  background-size: cover; 
 }
 
 
