@@ -293,6 +293,16 @@ img {
   border-radius: 3px;
 }
 
+.header-year:not(:empty) {
+  position: absolute;
+  right: -1px;
+  top: -1px; 
+  width: auto;
+  height: auto; 
+  padding: 3px;
+  border: 2px solid black;
+}
+
 .titolo_esc {
   /*padding: 15px 8px 15px 8px ;*/
 
