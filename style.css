@@ -131,11 +131,15 @@ img {
 }
 
 #sidenav #nav-body .nav-section-item {
+  font-size: 12px;
   position: relative;
 }
 
+#sidenav #nav-body .nav-section-item .less-important {
+  font-size: 11px;
+}
+
 .nav-section-item .last {
-  font-size: 12px;
   color: orange;
   font-weight: bold;
   display: block;
