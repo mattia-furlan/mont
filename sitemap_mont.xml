@@ -247,6 +247,12 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/libertan_chiarescons/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2024-09-13</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/mene_borsat/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -268,7 +274,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/monte_torre_val_scinauz/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-12</lastmod>
+      <lastmod>2024-09-13</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/morgenlaite/</loc>
