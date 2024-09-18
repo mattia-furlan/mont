@@ -8,8 +8,10 @@ window.addEventListener("beforeunload", () => {
 	//console.log("unload: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
 });
 document.addEventListener("DOMContentLoaded", () => {
-	var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
-	var scrollPositionNav = localStorage.getItem("scrollPositionNav");
-	//console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
-	document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	$("#sidenav").load("../../nav.html", function() {
+		var scrollPositionWindow = localStorage.getItem("scrollPositionWindow");
+		var scrollPositionNav = localStorage.getItem("scrollPositionNav");
+		//console.log("load: nav = " + scrollPositionNav + ", window = " + scrollPositionWindow);
+		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
+	});
 });
