@@ -11,16 +11,30 @@ body {
   /*background-color: lavender;*/ /*#F7FFE2;  /* #E2FFF7; */
 
   font-family: Verdana, sans-serif;
-
-  
-  background-image: url("sfondo/camoscio_lungo.JPG");
-  background-color: rgba(255,255,255,0.7);
-  background-blend-mode: lighten;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-position: 0 50%;
   min-width: 100%;
+}
+
+
+@media(min-width: 768px) {
+  body {
+    background-image: url("sfondo/camoscio_lungo.JPG");
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0 50%;
+  }
+}
+
+@media(max-width: 768px) {
+  body {
+    background-image: url("sfondo/camoscio_lungo_transp.PNG");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0 50%;
+  }
 }
 
 img {
