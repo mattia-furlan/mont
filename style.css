@@ -15,7 +15,7 @@ body {
 }
 
 
-@media(min-width: 768px) {
+@media(min-width: 1201px) {
   body {
     background-image: url("sfondo/camoscio_lungo.JPG");
     background-color: rgba(255,255,255,0.7);
@@ -27,13 +27,9 @@ body {
   }
 }
 
-@media(max-width: 768px) {
+@media(max-device-width: 1200px) {
   body {
-    background-image: url("sfondo/camoscio_lungo_transp.PNG");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: 0 50%;
+    background-image: none;
   }
 }
 
