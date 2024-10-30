@@ -315,7 +315,8 @@ img {
   text-align: center;
   font-size: 14px;
   font-style: italic;
-  width: 100%;
+  padding: 10px;
+  max-width: 100%;
 }
 
 
