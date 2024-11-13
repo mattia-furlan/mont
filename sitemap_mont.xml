@@ -70,7 +70,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cengia_caccia_scaperi/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2024-11-11</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cengia_kugy/</loc>
@@ -143,6 +143,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-09-04</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cristallo/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2024-11-13</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/croda_bianca/</loc>
