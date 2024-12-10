@@ -197,7 +197,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/domanzon_cuole/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-12-09</lastmod>
+      <lastmod>2024-12-10</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/fedeveiz_pustot/</loc>
@@ -410,6 +410,12 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud_brezzi/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2024-12-10</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pizzo_lovet_sud/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -455,7 +461,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/rupat/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-12-09</lastmod>
+      <lastmod>2024-12-10</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/san_francesco/</loc>
