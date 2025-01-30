@@ -15,3 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		document.querySelector("#sidenav").scrollTop = scrollPositionNav;
 	});
 });
+
+function doSearch(argument) {
+  var input = document.getElementById('inputSearchBar');
+  var filter = input.value.toUpperCase();
+  var 
+}
