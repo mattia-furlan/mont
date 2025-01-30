@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function doSearch(argument) {
-  var input = document.getElementById('inputSearchBar');
-  var filter = input.value.toUpperCase();
-  var 
+  //var input = document.getElementById('inputSearchBar');
+  //var filter = input.value.toUpperCase();
 }
