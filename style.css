@@ -38,6 +38,14 @@ img {
 }
 
 
+#inputSearchBar {
+  display: block;
+  width: 80%;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
 /* Barra laterale intera */
 #sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
