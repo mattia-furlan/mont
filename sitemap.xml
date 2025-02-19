@@ -203,7 +203,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cuviil/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-02-18</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/deneal_diretta_sud/</loc>
@@ -486,6 +486,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-09-04</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/provagna_cengla_mus/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/puartate/</loc>
