@@ -73,16 +73,16 @@ img {
   top: 0px;
   left: 0;
   width: 20%;
-  height: 100px;
+  height: 140px;
   display: block;
   z-index: 1;
 }
 
 #nav-body {
-  margin-top: 105px;
+  margin-top: 145px;
 }
 
-.nav-header-title {
+.nav-header-title-intro, .nav-header-title-escursioni {
   padding: 10px ;
   text-decoration: none;
   font-size: 22px;
@@ -94,16 +94,17 @@ img {
   text-align: center;
 }
 
-.nav-header-title:not(:last-child) {
+/*.nav-header-title:not(:last-child) {*/
+.nav-header-title-intro {
   border-bottom: 1px solid white;
 }
 
-.nav-header-title a {
+.nav-header-title-intro a {
   color: #ababab;
   text-decoration: none;
 }
 
-.nav-header-title a:hover {
+.nav-header-title-intro a:hover {
   color: #f3f3f3;
   text-decoration: none;
   font-weight: bold;
