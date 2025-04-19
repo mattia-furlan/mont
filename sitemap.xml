@@ -324,7 +324,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/jovet_blanc/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-04-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jovet_cjadramac/</loc>
@@ -559,6 +559,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-11-27</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/rio_balins/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-04-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/rupat/</loc>
