@@ -72,7 +72,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/canine_compassit/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-02-27</lastmod>
+      <lastmod>2025-04-24</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/caserine_basse_sud/</loc>
@@ -120,13 +120,13 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/ciol_de_sass/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-04-03</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/ciuc_muinie/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-12-25</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cjampon_nubi/</loc>
@@ -138,7 +138,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/col_musiel/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/corda/</loc>
@@ -306,7 +306,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/introduzione/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-01-28</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_scluse_ombrenum/</loc>
@@ -534,7 +534,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/puartate/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/punta_grisis/</loc>
@@ -564,7 +564,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/rio_balins/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-04-21</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/rupat/</loc>
@@ -606,7 +606,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/semide_dai_agnei/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/siroche_gjaline/</loc>
@@ -663,6 +663,12 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/troiat/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-04-25</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/vacalizza/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -672,7 +678,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/vacialissa_sciarpenade/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-01-30</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/vetta_criuze/</loc>
@@ -696,6 +702,6 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/vualbinis/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-04-25</lastmod>
    </url>
 </urlset>
