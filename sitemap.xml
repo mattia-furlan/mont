@@ -153,6 +153,12 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/clap_blanc/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-05-19</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/col_musiel/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -181,6 +187,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-09-09</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/creta_pricot_sud/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-05-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/creton_belepeit/</loc>
@@ -615,6 +627,12 @@
       <lastmod>2024-12-06</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/schoneck/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-05-19</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/sciober_grande/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -648,7 +666,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/sotgoliz/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-02-20</lastmod>
+      <lastmod>2025-05-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/spic/</loc>
