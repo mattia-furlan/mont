@@ -90,7 +90,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cengia_kugy/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-05-27</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cenglis_cimadors/</loc>
@@ -192,7 +192,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/creta_pricot_sud/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-05-19</lastmod>
+      <lastmod>2025-05-21</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/creton_belepeit/</loc>
@@ -336,7 +336,13 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/introduzione/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-04-25</lastmod>
+      <lastmod>2025-05-27</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/jof_miez/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-05-28</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_scluse_ombrenum/</loc>
