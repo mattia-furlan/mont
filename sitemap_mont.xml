@@ -13,7 +13,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/anello_muinie/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-11-28</lastmod>
+      <lastmod>2025-06-03</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/anello_stali_gnazio/</loc>
@@ -97,6 +97,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2025-03-27</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cima_delle_cenge/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-06-09</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cima_meda_sud/</loc>
@@ -187,6 +193,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-09-09</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cresta_miaron/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-06-13</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/creta_pricot_sud/</loc>
@@ -336,7 +348,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/introduzione/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-05-27</lastmod>
+      <lastmod>2025-06-09</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_miez/</loc>
@@ -384,7 +396,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/le_piche/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-04-29</lastmod>
+      <lastmod>2025-06-03</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/ledis_cresta_est/</loc>
@@ -597,10 +609,16 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
-      <loc>https://mattia-furlan.github.io/mont/escursioni/raibl_terza/</loc>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/raibl_1_2/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-05-12</lastmod>
+      <lastmod>2025-06-13</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/raibl_3/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-06-09</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/rauret/</loc>
@@ -642,7 +660,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/sciober_grande/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-01-30</lastmod>
+      <lastmod>2025-06-12</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/scjalute_sante/</loc>

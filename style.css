@@ -10,7 +10,7 @@ html {
 body {
   /*background-color: lavender;*/ /*#F7FFE2;  /* #E2FFF7; */
 
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, sans-serif !important;
   min-width: 100%;
 }
 
@@ -57,7 +57,7 @@ img {
   background-color: black;
   overflow-x: hidden; /* Disable horizontal scroll */
   border-bottom: 15%;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace !important;
   display: block;
 }
 
@@ -134,7 +134,7 @@ img {
   background-color: whitesmoke;
   text-align: center;
   font-size: 16px;
-  font-family: cursive;
+  font-family: cursive !important;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -397,14 +397,14 @@ img {
 
 /*.cit*/ .cit-text {
   font-style: italic;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman" !important;
   margin-bottom: 0px;
   margin-top: 5px;
 }
 
 /*.cit*/ .cit-source {
   margin-top: 5px;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman" !important;
   margin-bottom: 0px;
   text-align: right;
 }
