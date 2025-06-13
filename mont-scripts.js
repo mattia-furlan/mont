@@ -58,13 +58,13 @@ function doSearch(argument) {
 
 
 function toggleChildren(titleElement) {
-	const titleText = titleElement.textContent
-	const contentElement = titleElement.nextElementSibling
+  var titleText = titleElement.textContent
+  const contentElement = titleElement.nextElementSibling
   const children = contentElement.querySelectorAll('.nav-section-item');
-  if (!titleText.endsWith(" -"))
+  /*if (!titleText.endsWith(" -"))
   	titleText += " +";
   if (!titleText.endsWith(" +"))
-  	titleText += " -";
+  	titleText += " -";*/
   children.forEach(child => {
     if (child.style.display === 'none') {
         child.style.display = 'block';
