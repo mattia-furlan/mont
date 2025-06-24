@@ -123,12 +123,6 @@
       <lastmod>2024-11-20</lastmod>
    </url>
    <url>
-      <loc>https://mattia-furlan.github.io/mont/escursioni/cimon_froppa/</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-      <lastmod>2024-12-17</lastmod>
-   </url>
-   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/ciol_de_sass/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -421,6 +415,18 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2024-10-23</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cime_vallonga/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-06-24</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cimon_froppa/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-06-24</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/mds_mont_alt/</loc>
