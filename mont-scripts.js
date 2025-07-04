@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		input.dispatchEvent(new KeyboardEvent('keyup',{'key':'a'}));
 	});
 });
-
 function doSearch(argument) {
   var input = document.getElementById('inputSearchBar');
   var filter = input.value.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -55,19 +54,15 @@ function doSearch(argument) {
   		item.style.display = "none";
   }
 }
-
-
 function toggleChildren(titleElement) {
   const contentElement = titleElement.nextElementSibling
   const children = contentElement.querySelectorAll('.nav-section-item');
   const titleSymbol = titleElement.querySelector('.symbol');
-  titleSymbol.textContent = titleSymbol.textContent === "☰" ? '✖' : '☰';
+  const haveToOpen = titleSymbol.textContent === '☰' ;
+  const displayClass = haveToOpen ? 'block' : 'none';
+  titleSymbol.textContent = haveToOpen ? '✖' : '☰';
   children.forEach(child => {
-    if (child.style.display === 'none') {
-        child.style.display = 'block';
-    } else {
-        child.style.display = 'none';
-    }
+    child.style.display = displayClass;
   });
 }var keywords_map={};
 keywords_map['agarone_serai']=['LAVARA','PLAURIS','BORGO CROS','STIVANE','PACOI','NAPLIS','AGARONE','MINIERE','MINIERA','UARCHEC','PUNTA SALVOTIS','PALON DEI ZABUS','PALON DI ZAPUS','PALON DI ZAPU','SERAI','RESARTICO','RESIUTTA','POVICI'];
