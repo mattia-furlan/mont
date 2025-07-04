@@ -58,13 +58,10 @@ function doSearch(argument) {
 
 
 function toggleChildren(titleElement) {
-  var titleText = titleElement.textContent
   const contentElement = titleElement.nextElementSibling
   const children = contentElement.querySelectorAll('.nav-section-item');
-  /*if (!titleText.endsWith(" -"))
-  	titleText += " +";
-  if (!titleText.endsWith(" +"))
-  	titleText += " -";*/
+  const titleSymbol = titleElement.querySelector('.symbol');
+  titleSymbol.textContent = titleSymbol.textContent === "☰" ? '✖' : '☰';
   children.forEach(child => {
     if (child.style.display === 'none') {
         child.style.display = 'block';

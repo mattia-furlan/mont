@@ -131,15 +131,23 @@ img {
 }
 
 .nav-section-title {
+  position: relative;
   background-color: whitesmoke;
-  text-align: center;
-  font-size: 16px;
-  font-family: cursive !important;
-  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 2px;
   margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: cursive !important;
+  font-weight: bold;
+}
+
+.nav-section-title .symbol {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* The navigation menu links */
