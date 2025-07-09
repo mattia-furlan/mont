@@ -398,7 +398,6 @@ img {
 }
 
 .cit {
-  text-align: justify;
   font-size: 16px;
   padding: 25px;
 }
@@ -408,6 +407,8 @@ img {
   font-family: "Times New Roman" !important;
   margin-bottom: 0px;
   margin-top: 5px;
+  text-align: justify;
+  text-align-last: center
 }
 
 /*.cit*/ .cit-source {
