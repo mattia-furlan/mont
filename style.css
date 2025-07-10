@@ -44,6 +44,30 @@ img {
   font-size: 16px;
   margin: 0 auto;
   padding: 5px;
+  padding-right: 30px; /* space for the button */
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.reset-button {
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+}
+
+.reset-button:hover {
+  color: #000;
 }
 
 /* Barra laterale intera */
@@ -83,7 +107,7 @@ img {
 }
 
 .nav-header-title-intro, .nav-header-title-escursioni {
-  padding: 10px ;
+  padding: 10px 0;
   text-decoration: none;
   font-size: 22px;
   color: #ababab;
@@ -92,6 +116,13 @@ img {
   float: left;
   margin: auto;
   text-align: center;
+}
+
+.input-container {
+  width: 100%;
+  z-index: 1;
+  float: left;
+  margin: auto;
 }
 
 /*.nav-header-title:not(:last-child) {*/
@@ -148,6 +179,11 @@ img {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
 }
 
 /* The navigation menu links */
