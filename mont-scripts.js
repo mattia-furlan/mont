@@ -108,10 +108,10 @@ function doSearchBySection(argument) {
   
   const resetFilterButton = document.querySelector(".reset-button");
   resetFilterButton.style.display = filter == "" ? "none" : "";
-  
-  const lastMark = document.querySelector(".last");
-  if (lastMark != null)
-    lastMark.style.display = closeButtonsDisplay;
+
+  const lastMarks = document.querySelectorAll(".nav-section-title .last");
+  for (var i=0; i < lastMarks.length; i++)
+    lastMarks[i].style.display = 'none';
 }
 function toggleChildren(titleElement) {
   const contentElement = titleElement.nextElementSibling
@@ -125,7 +125,7 @@ function toggleChildren(titleElement) {
   });
   const lastMark = titleElement.querySelector(".last");
   if (lastMark != null)
-    lastMark.style.display = displayClass;
+    lastMark.style.display = haveToOpen ? 'none' : 'block';
 }var keywords_map={};
 keywords_map['agarone_serai']=['LAVARA','PLAURIS','BORGO CROS','STIVANE','PACOI','NAPLIS','AGARONE','MINIERE','MINIERA','UARCHEC','PUNTA SALVOTIS','PALON DEI ZABUS','PALON DI ZAPUS','PALON DI ZAPU','SERAI','RESARTICO','RESIUTTA','POVICI'];
 keywords_map['anello_muinie']=['RIU DI PLACE','CIUC DA LA MUINIE','SECONDA CENGIA PISIMONI','PRIMA CENGIA PISIMONI','VAL ALBA','CROSTIS','CENGLON','CUEL DI SORE','FORCJE DI SORE','STUA ALTA','TRALBA','PLAGNE','CENGLE ALTE','CENGE PISIMONI','PISIMONI','MUINIE'];
