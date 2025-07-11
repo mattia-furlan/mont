@@ -97,15 +97,17 @@ function doSearchBySection(argument) {
     else
       section.style.display = "none";
   }
-  const closeButtons = document.querySelectorAll("close-section-button");
+  const closeButtons = document.querySelectorAll(".close-section-button");
   const closeButtonsDisplay = filter == "" ? "" : "none";
   for (var i=0; i < closeButtons.length; i++)
     closeButtons[i].style.display = closeButtonsDisplay;
+  const resetFilterButton = document.querySelector("reset-button");
+    resetFilterButton.style.display = filter == "none" ? "" : "";;
 }
 function toggleChildren(titleElement) {
   const contentElement = titleElement.nextElementSibling
   const children = contentElement.querySelectorAll('.nav-section-item');
-  const titleSymbol = titleElement.querySelector('.symbol');
+  const titleSymbol = titleElement.querySelector('.close-section-button');
   const haveToOpen = titleSymbol.textContent === '☰' ;
   const displayClass = haveToOpen ? 'block' : 'none';
   titleSymbol.textContent = haveToOpen ? '✖' : '☰';
