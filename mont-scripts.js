@@ -97,6 +97,10 @@ function doSearchBySection(argument) {
     else
       section.style.display = "none";
   }
+  const closeButtons = document.querySelectorAll("close-section-button");
+  const closeButtonsDisplay = filter == "" ? "" : "none";
+  for (var i=0; i < closeButtons.length; i++)
+    closeButtons[i].style.display = closeButtonsDisplay;
 }
 function toggleChildren(titleElement) {
   const contentElement = titleElement.nextElementSibling
