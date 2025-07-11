@@ -101,8 +101,17 @@ function doSearchBySection(argument) {
   const closeButtonsDisplay = filter == "" ? "" : "none";
   for (var i=0; i < closeButtons.length; i++)
     closeButtons[i].style.display = closeButtonsDisplay;
-  const resetFilterButton = document.querySelector("reset-button");
-    resetFilterButton.style.display = filter == "none" ? "" : "";;
+  if (filter == "") {
+    for (var i=0; i < closeButtons.length; i++)
+      closeButtons[i].textContent = '✕';
+  }
+  
+  const resetFilterButton = document.querySelector(".reset-button");
+  resetFilterButton.style.display = filter == "" ? "none" : "";
+  
+  const lastMark = document.querySelector(".last");
+  if (lastMark != null)
+    lastMark.style.display = closeButtonsDisplay;
 }
 function toggleChildren(titleElement) {
   const contentElement = titleElement.nextElementSibling
@@ -110,10 +119,13 @@ function toggleChildren(titleElement) {
   const titleSymbol = titleElement.querySelector('.close-section-button');
   const haveToOpen = titleSymbol.textContent === '☰' ;
   const displayClass = haveToOpen ? 'block' : 'none';
-  titleSymbol.textContent = haveToOpen ? '✖' : '☰';
+  titleSymbol.textContent = haveToOpen ? '✕' : '☰';
   children.forEach(child => {
     child.style.display = displayClass;
   });
+  const lastMark = titleElement.querySelector(".last");
+  if (lastMark != null)
+    lastMark.style.display = displayClass;
 }var keywords_map={};
 keywords_map['agarone_serai']=['LAVARA','PLAURIS','BORGO CROS','STIVANE','PACOI','NAPLIS','AGARONE','MINIERE','MINIERA','UARCHEC','PUNTA SALVOTIS','PALON DEI ZABUS','PALON DI ZAPUS','PALON DI ZAPU','SERAI','RESARTICO','RESIUTTA','POVICI'];
 keywords_map['anello_muinie']=['RIU DI PLACE','CIUC DA LA MUINIE','SECONDA CENGIA PISIMONI','PRIMA CENGIA PISIMONI','VAL ALBA','CROSTIS','CENGLON','CUEL DI SORE','FORCJE DI SORE','STUA ALTA','TRALBA','PLAGNE','CENGLE ALTE','CENGE PISIMONI','PISIMONI','MUINIE'];
