@@ -222,7 +222,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cristallo/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-06-30</lastmod>
+      <lastmod>2025-07-21</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/croda_bianca/</loc>
@@ -393,6 +393,12 @@
       <lastmod>2024-09-04</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/laste_cresta_nord/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-07-23</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/le_piche/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
@@ -438,13 +444,13 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cimon_froppa/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-06-24</lastmod>
+      <lastmod>2025-07-22</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_croda_de_marchi_nord/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-07-09</lastmod>
+      <lastmod>2025-07-21</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_pala_meduce_tiziano/</loc>
@@ -636,7 +642,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/punta_pia/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-06-30</lastmod>
+      <lastmod>2025-07-22</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/punta_salvotis/</loc>
@@ -678,7 +684,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/san_francesco/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2024-09-04</lastmod>
+      <lastmod>2025-07-23</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/sasso_cima_malpasso/</loc>
@@ -751,6 +757,12 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
       <lastmod>2025-03-03</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/tauri_2025_elberfelder_salm/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-07-23</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/thengia_danut/</loc>
