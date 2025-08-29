@@ -1,3 +1,8 @@
+# A sitemap page
+User-agent: *
+Allow: /
+
+
 User-agent: *
 Disallow: 
 
