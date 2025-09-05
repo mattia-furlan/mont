@@ -120,7 +120,13 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cima_ambata/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-09-03</lastmod>
+      <lastmod>2025-09-04</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cima_bagni/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2025-09-05</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cima_delle_cenge/</loc>
@@ -480,7 +486,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cime_vallonga/</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2025-07-26</lastmod>
+      <lastmod>2025-09-04</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cimon_froppa/</loc>
