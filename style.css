@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/apple-chancery');
+
 html {
   overflow-y: scroll;
 }
@@ -7,10 +9,8 @@ html {
   text-align: center;
 }
 
-@import url('https://fonts.cdnfonts.com/css/apple-chancery');
 
 body {
-  /*background-color: lavender;*/ /*#F7FFE2;  /* #E2FFF7; */
   font-family: Verdana, sans-serif !important;
   min-width: 100%;
 }
