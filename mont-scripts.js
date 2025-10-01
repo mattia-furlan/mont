@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function doSearchBySection(argument) {
  var input = document.getElementById('inputSearchBar');
- var filter = input.value.toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+ var filter = input.value.toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
  var sections = document.getElementsByClassName('nav-section');
  for (var i = 0; i < sections.length; i++) {
   var section = sections[i];
@@ -60,25 +60,44 @@ function doSearchBySection(argument) {
   for (var j=0; j < sectionItems.length; j++) {
    var item = sectionItems[j];
    var escLink = item.getElementsByTagName('a')[0];
-   var escText = escLink.innerText.toUpperCase();
+
+   escLink.innerHTML = escLink.innerText;
+   var escText = escLink.innerText;
+   var escTextNormalized = escText.toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
    var escHref = escLink.getAttribute('href');
    var escFolder='';
    if (escHref)
     escFolder = escHref.substring(3, escHref.length-1);
 
-   var toSearch = [];
-   if (escFolder !== '') {
-    var keywords = keywords_map[escFolder];
-    if (keywords)
-     toSearch = keywords;
-   }
-   toSearch.push(escText.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
-   
+
    var found = false;
-   for (var k = 0; k < toSearch.length && !found; k++) {
-    if (toSearch[k].includes(filter))
-     found = true;
+   const matchTitle = escTextNormalized.indexOf(filter);
+
+   if (matchTitle !== -1) {
+      found = true;
+      if (filter !== "") {
+        const indexStart = matchTitle;
+        const indexEnd = indexStart + filter.length;
+        //console.log("match: " + escText.substring(indexStart, indexEnd));
+        const before = escText.slice(0, indexStart);
+        const word = escText.slice(indexStart, indexEnd);
+        const after = escText.slice(indexEnd);
+        const span = `<span class="highlight"}>${word}</span>`;
+        escLink.innerHTML = before + span + after;
+    }
+   } else {
+     var toSearch = [];
+     if (escFolder !== '') {
+      var keywords = keywords_map[escFolder];
+      if (keywords)
+       toSearch = keywords;
+     }
+     for (var k = 0; k < toSearch.length && !found; k++) {
+      if (toSearch[k].includes(filter))
+       found = true;
+     }
    }
+
    if (found) {
     item.style.display = '';
     sectionHasMatch = true;

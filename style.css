@@ -18,6 +18,11 @@ html {
   text-align: center;
 }
 
+.highlight {
+  background-color: rgba(255, 255, 0, 0.9);
+  color: black;
+  padding: 0 2px;
+}
 
 body {
   font-family: Verdana, sans-serif !important;
@@ -436,6 +441,7 @@ img {
   font-style: italic;
   padding: 10px;
   max-width: 100%;
+  line-height: 1.5em;
 }
 
 
@@ -536,67 +542,81 @@ li.biblio-level:not(.biblio-level-0):has(li)::marker {
     content: "— ";
 }*/
 
-li.biblio-level {
-  margin: 3px 0;
-}
-
-ul.biblio-level {
-  margin: 5px 0;
-}
-
 ul.biblio-level:not(.biblio-level-0):has(li) {
   list-style: disc;
 }
 
 ul.biblio-level-0 {
   list-style: none;
+  padding-left: 0;
 }
 
 li.biblio-level > .title {
   font-weight: bold;
-  margin: 1em 0;
+  display: block;
 }
 
 li.biblio-level-0 > .title {
-  font-size: 2.2em;
+  font-size: 2.0em;
+  margin-bottom: 20px;
 }
 
 .biblio-level-0 > .title {
-  margin-bottom: 20px;
-  text-decoration: underline;
+  border: 3px dotted gray;
+  border-radius: 3px;
+  padding: 3px;
+  text-align: center;
 }
 
-ul.biblio-level-1 {
+
+li.biblio-level-1 {
   list-style: none;
-  padding-bottom: 8px;
+  margin-left: 15px;
+}
+
+li.biblio-level-1  {
+  margin-bottom: 15px;
 }
 
 li.biblio-level-1 > .title {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  margin-bottom: 8px;
 }
 
 .biblio-level-1 > .title {
-  border: 2px dotted gray;
-  border-radius: 3px;
+  text-decoration: underline;
 }
 
 li.biblio-level-2 > .title {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 li.biblio-level:not(:has(li)) {
   list-style: square;
   color: black;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+ul.biblio-level:not(.biblio-level-0):has(li) {
+  list-style: none;  /* Remove bullets */
+  padding: 0;
+  margin: 0;
 }
 
 li.biblio-level-0 {
   margin-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
+  margin-bottom: 60px;
+  display: block;
 }
-
 
 .biblio-art-commento {
   font-style: italic;
   color: gray;
+}
+
+.material-symbols-outlined {
+  font-size: 1.2em;          /* Match the current font size */
+  vertical-align: middle;  /* Or use 'text-bottom' if needed */
+  line-height: 1;          /* Optional: helps in some cases */
 }
