@@ -55,7 +55,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/bibliografia/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-10-01</lastmod>
+      <lastmod>2025-10-02</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/borga_cengia_stok/</loc>
@@ -746,6 +746,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-09-30</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/raibl_5/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-10-02</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/rauret/</loc>
