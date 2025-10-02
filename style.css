@@ -554,6 +554,7 @@ ul.biblio-level-0 {
 li.biblio-level > .title {
   font-weight: bold;
   display: block;
+  margin-bottom: 10px;
 }
 
 li.biblio-level-0 > .title {
