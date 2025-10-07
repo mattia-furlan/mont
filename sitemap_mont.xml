@@ -55,7 +55,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/bibliografia/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-10-03</lastmod>
+      <lastmod>2025-10-07</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/borga_cengia_stok/</loc>
@@ -392,6 +392,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2024-09-04</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/giracul_bisa/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-10-07</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/glemine/</loc>
