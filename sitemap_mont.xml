@@ -544,6 +544,12 @@
       <lastmod>2025-09-25</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/mds_feruch_est/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-11-10</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/mds_mont_alt/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -631,7 +637,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/pala_alta/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-01-02</lastmod>
+      <lastmod>2025-11-10</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pale_bressa_pisandola/</loc>
