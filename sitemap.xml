@@ -55,7 +55,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/bibliografia/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-11-13</lastmod>
+      <lastmod>2025-11-14</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/borga_cengia_stok/</loc>
@@ -163,13 +163,19 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cima_preti_ovest/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-26</lastmod>
+      <lastmod>2025-11-14</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cima_pussa_bortolusc/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-09-03</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cimonega_piz_sagron_mez/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-11-14</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cimon_entralais/</loc>
@@ -427,7 +433,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_miez/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-18</lastmod>
+      <lastmod>2025-11-14</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_scluse_ombrenum/</loc>
