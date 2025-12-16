@@ -55,7 +55,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/bibliografia/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-12-05</lastmod>
+      <lastmod>2025-12-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/borga_cengia_stok/</loc>
@@ -208,6 +208,12 @@
       <lastmod>2025-04-25</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cjampon_mont_dal_clap/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-12-16</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cjampon_nubi/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -355,7 +361,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/deneal_diretta_sud/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-01-05</lastmod>
+      <lastmod>2025-12-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/domanzon_cuole/</loc>
@@ -601,7 +607,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/monte_canale/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-11-11</lastmod>
+      <lastmod>2025-12-15</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/monte_cerchio/</loc>
@@ -832,6 +838,12 @@
       <lastmod>2024-12-06</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/scandoler_sud/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-12-10</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/schoneck/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -943,7 +955,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/vacalizza_covarata/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-01</lastmod>
+      <lastmod>2025-12-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/vacialissa_sciarpenade/</loc>
