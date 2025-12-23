@@ -937,7 +937,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/troiat/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-18</lastmod>
+      <lastmod>2025-12-22</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/troi_cuelat/</loc>
@@ -998,5 +998,11 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-11-17</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/zelo_sud/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2025-12-23</lastmod>
    </url>
 </urlset>
