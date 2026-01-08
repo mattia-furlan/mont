@@ -709,7 +709,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/patoc_garlitais/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2024-10-08</lastmod>
+      <lastmod>2026-01-07</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/patoc_ze/</loc>
@@ -740,6 +740,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-09-18</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/piciat_sud/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-01-08</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud/</loc>
