@@ -745,7 +745,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/piciat_sud/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-01-09</lastmod>
+      <lastmod>2026-01-12</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud/</loc>
@@ -757,7 +757,13 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud_brezzi/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2024-12-10</lastmod>
+      <lastmod>2026-01-12</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud_rio_mulin/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-01-12</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pizzo_lovet_sud/</loc>
