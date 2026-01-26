@@ -67,7 +67,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/bosc_de_val_anello/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-01-23</lastmod>
+      <lastmod>2026-01-25</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/buinc/</loc>
@@ -266,6 +266,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-04-28</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cozarel_bas_traversata/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-01-26</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/coz_sgrant/</loc>
@@ -469,7 +475,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/jovet/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-26</lastmod>
+      <lastmod>2026-01-26</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jovet_blanc/</loc>
