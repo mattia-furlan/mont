@@ -18,6 +18,11 @@ html {
   text-align: center;
 }
 
+.no-anim {
+  transition: none !important;
+  animation: none !important;
+}
+
 .highlight {
   background-color: rgba(255, 255, 0, 0.9);
   color: black;
@@ -61,6 +66,10 @@ img {
   padding-right: 30px; /* space for the button */
   box-sizing: border-box;
 }
+
+/*#inputSearchBar:not(:placeholder-shown) {
+  background-color: rgba(255, 255, 0, 0.8); 
+}*/
 
 .input-container {
   position: relative;
@@ -263,6 +272,12 @@ img {
   font-weight: bold;
   display: block;
   position: absolute;
+}
+
+.nav-section-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease;
 }
 
 #sidenav .nav-section-title .last {
