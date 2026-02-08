@@ -184,10 +184,16 @@
       <lastmod>2026-01-23</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/cimonega_comedon_erera/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-02-08</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cimonega_piz_sagron_mez/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-11-14</lastmod>
+      <lastmod>2026-02-08</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cimon_entralais/</loc>
@@ -590,6 +596,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-11-14</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/mds_rocheta/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-02-06</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/mds_stornade/</loc>
