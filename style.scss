@@ -1,0 +1,620 @@
+/************************************
+ * VARIABLES
+ ************************************/
+$font-esc-sections: "Apple Chancery", sans-serif;
+$font-esc-list: "Courier New", monospace;
+$font-serif: "Times New Roman";
+
+$body-width: 1440px;
+$sidebar-width: 260px;
+
+$clr-gray: #ababab;
+$clr-dark: black;
+$clr-accent: orange;
+$clr-bg-overlay: rgba(255, 255, 255, 0.7);
+$clr-highlight: rgba(255, 255, 0, 0.9);
+
+$radius: 3px;
+
+/************************************
+ * MIXINS
+ ************************************/
+@mixin no-anim {
+  transition: none !important;
+  animation: none !important;
+}
+
+@mixin clickable {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+@mixin img-block {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+@mixin text-shadow-strong {
+  text-shadow:
+    1px 0 0 #000,
+    0 -1px 0 #000,
+    0 1px 0 #000,
+    -1px 0 0 #000;
+}
+
+/************************************
+ * GLOBAL
+ ************************************/
+
+@import url("https://fonts.cdnfonts.com/css/apple-chancery");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: Verdana, sans-serif !important;
+  margin: 0;
+
+  @media (min-width: 1201px) {
+    background: $clr-bg-overlay url("sfondo/camoscio_lungo_2.PNG") repeat fixed
+      0 50%;
+    background-blend-mode: lighten;
+    background-size: 100%;
+  }
+
+  @media (max-device-width: 1200px) {
+    background: none;
+  }
+}
+
+#wrapper {
+  max-width: $body-width;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+/************************************
+ * SEARCH BAR
+ ************************************/
+#inputSearchBar {
+  display: block;
+  width: (0.8 * $sidebar-width);
+  margin: auto;
+  padding: 5px 30px 5px 5px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+
+  .reset-button {
+    @include clickable;
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+/************************************
+ * SIDEBAR
+ ************************************/
+#sidenav {
+  width: $sidebar-width;
+  height: 100vh; /* Full viewport height */
+  position: sticky;
+  flex-shrink: 0;
+  top: 0;
+  background: $clr-dark;
+  font-family: $font-esc-list !important;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+    background: white;
+  }
+
+  .last {
+    font-size: 12px;
+    color: orange;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+  }
+
+  #nav-body {
+    a {
+      padding: 10px 16px;
+      color: $clr-gray;
+      display: block;
+      text-decoration: none;
+    }
+
+    .nav-section-title {
+      position: relative;
+      width: 230px;
+      margin: 10px auto;
+      padding: 10px 0;
+      background: whitesmoke;
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+
+      .text {
+        flex: 1;
+        text-align: center;
+        font-family: $font-esc-sections !important;
+        font-weight: bold;
+      }
+
+      .close-section-button {
+        @include clickable;
+        color: black;
+      }
+
+      .last {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        font-size: 1rem;
+      }
+    }
+
+    .nav-section-content {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.2s ease;
+    }
+
+    .nav-section-item {
+      font-size: 1rem;
+      border-bottom: 1px solid white;
+      position: relative;
+
+      &:hover {
+        color: #f3f3f3;
+        font-weight: bold;
+      }
+
+      .less-important {
+        font-size: 0.7rem;
+      }
+      .todo {
+        text-decoration: line-through;
+        pointer-events: none;
+      }
+
+      .last {
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+  #nav-header {
+    position: sticky;
+    top: 0;
+    width: $sidebar-width;
+    background: $clr-dark;
+    top: 0;
+    z-index: 5;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+
+    .nav-header-title-intro {
+      padding: 10px 0;
+      text-align: center;
+      color: $clr-gray;
+
+      &.first {
+        border-bottom: 1px solid white;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          color: #f3f3f3;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+/************************************
+ * PAGE
+ ************************************/
+#page {
+  flex: 1;
+  flex-grow: 1;
+  padding: 40px;
+  min-width: 0; /* important: fixes overflow issues */
+  font-size: 14px;
+  overflow-x: hidden;
+
+  img {
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      background-color: lightskyblue;
+    }
+
+    &:visited {
+      background-color: lightblue;
+    }
+  }
+}
+
+/************************************
+ * IMAGE+TEXT BLOCK
+ ************************************/
+.img-text {
+  display: flex;
+  padding: 20px 0;
+
+  .left {
+    flex: 1;
+    margin-right: 30px;
+  }
+  .right {
+    flex: 1;
+    margin-left: 30px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+/************************************
+ * INTRO BLOCK
+ ************************************/
+.intro-wrapper {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.intro {
+  display: table;
+  margin: auto;
+
+  img {
+    @include img-block;
+    margin-top: 15px;
+  }
+
+  figcaption {
+    background: darkslategray;
+    color: white;
+    text-align-last: center;
+    padding: 3px 10px;
+    border: 1px dotted black;
+    border-top: 1px solid gray;
+    border-radius: 0 0 $radius $radius;
+
+    a {
+      color: gray;
+      text-decoration: none;
+
+      &:hover {
+        background: lightgray;
+      }
+      &:visited {
+        background: lightblue;
+      }
+    }
+  }
+}
+
+/************************************
+ * TITLES
+ ************************************/
+#header {
+  width: 75%;
+  margin: auto;
+  background: darkslategray;
+  color: white;
+  border: 2px solid black;
+  border-radius: $radius;
+  @include text-shadow-strong;
+
+  .header-year:not(:empty) {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding: 3px;
+    border: 2px solid black;
+  }
+}
+
+.titolo_esc {
+  text-align: center;
+  font-size: 28px;
+}
+.sottotitolo_esc {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  padding: 10px;
+}
+
+/************************************
+ * GALLERY BLOCKS
+ ************************************/
+.foto_esc {
+  max-width: 75%;
+  margin: 5px 0 25px;
+}
+.foto_esc_vert {
+  max-width: 50%;
+  margin: 5px 0 25px;
+  border-radius: 5px;
+}
+
+.due_vert,
+.tre_vert,
+.multiple-imgs {
+  display: flex;
+  margin: 5px 0 25px;
+
+  img {
+    margin-right: 20px;
+  }
+}
+
+.due_vert img {
+  flex: 1;
+  max-width: 35%;
+}
+.tre_vert img {
+  max-width: 28%;
+}
+
+.multiple-imgs .img {
+  flex: 1;
+  margin-right: 20px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+/************************************
+ * CITATIONS
+ ************************************/
+.cit {
+  font-size: 1rem;
+  padding: 25px;
+
+  .cit-source {
+    margin-top: 5px;
+    font-family: $font-serif !important;
+    text-align: right;
+  }
+}
+
+.cit-text {
+  font-family: $font-serif !important;
+  font-style: italic;
+  margin-top: 5px;
+  text-align-last: center;
+}
+
+.relazione {
+  background: lightslategray;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: $radius;
+  font-style: italic;
+}
+
+/************************************
+ * BIBLIOGRAPHY
+ ************************************/
+// -----------------------------
+// Mixins & helpers
+// -----------------------------
+@mixin list-reset {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+%title-base {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+// -----------------------------
+// Bibliography structure
+// -----------------------------
+ul.biblio-level {
+  // Progressive enhancement for :has()
+  @supports selector(:has(*)) {
+    &:not(.biblio-level-0):has(li) {
+      list-style: disc;
+    }
+  }
+
+  &.biblio-level-0 {
+    @include list-reset;
+  }
+
+  // Your original "remove bullets for nested lists with items"
+  @supports selector(:has(*)) {
+    &:not(.biblio-level-0):has(li) {
+      @include list-reset;
+    }
+  }
+}
+
+// -----------------------------
+// Level 0 (top level items)
+// -----------------------------
+li.biblio-level-0 {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 60px;
+
+  > .title {
+    @extend %title-base;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+    border: 3px dotted gray;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+  }
+}
+
+// Also support `.biblio-level-0 > .title`
+.biblio-level-0 > .title {
+  border: 3px dotted gray;
+  border-radius: 3px;
+  padding: 3px;
+  text-align: center;
+}
+
+// -----------------------------
+// Level 1
+// -----------------------------
+li.biblio-level-1 {
+  list-style: none;
+  margin-left: 15px;
+  margin-bottom: 15px;
+
+  > .title {
+    @extend %title-base;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+}
+
+.biblio-level-1 > .title {
+  text-decoration: underline;
+}
+
+// -----------------------------
+// Level 2
+// -----------------------------
+li.biblio-level-2 {
+  > .title {
+    @extend %title-base;
+    font-size: 1.1em;
+  }
+}
+
+// -----------------------------
+// Leaf items (no nested li)
+// -----------------------------
+li.biblio-level {
+  @supports selector(:has(*)) {
+    &:not(:has(li)) {
+      list-style: square;
+      color: black;
+      margin-left: 15px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+// -----------------------------
+// Titles (generic catch-all)
+// -----------------------------
+li.biblio-level > .title {
+  @extend %title-base;
+}
+
+// -----------------------------
+// Notes / comments
+// -----------------------------
+.biblio-art-commento {
+  font-style: italic;
+  color: gray;
+
+  &:hover {
+    font-style: normal;
+    background-color: white;
+    color: rgb(51, 51, 51);
+  }
+}
+
+/************************************
+ * MISC
+ ************************************/
+.material-symbols-outlined {
+  font-size: 1.2em;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.biblio-level {
+  :target {
+    animation: focusPulse 5s ease-out;
+  }
+}
+
+@keyframes focusPulse {
+  0% {
+    outline: 0 solid rgba(80, 150, 255, 0);
+    background: rgba(80, 150, 255, 0.5);
+  }
+  40% {
+    outline: 6px solid rgba(80, 150, 255, 0.5);
+    background: rgba(80, 150, 255, 0.3);
+  }
+  100% {
+    outline: 0 solid rgba(80, 150, 255, 0);
+    background: rgba(80, 150, 255, 0);
+  }
+}
+
+.no-anim {
+  @include no-anim;
+}
+
+.highlight {
+  background: $clr-highlight;
+  color: black;
+  padding: 0 2px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  max-width: 70%;
+}
