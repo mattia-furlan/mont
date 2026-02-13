@@ -40,6 +40,11 @@ body {
   display: flex;
   margin: 0 auto;
 }
+#wrapper .main p {
+  max-width: 75%;
+  text-align: justify;
+  padding: 3px;
+}
 
 h1 {
   font-size: 2.5rem;
@@ -567,6 +572,9 @@ iframe {
   #page .intro-wrapper {
     width: 100%;
     margin-top: 0;
+  }
+  #page .main p {
+    max-width: 100%;
   }
   #page .main .foto_esc {
     max-width: 100%;
