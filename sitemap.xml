@@ -49,7 +49,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/belepeit_pale_dal_muart/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-09-19</lastmod>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/bibliografia/</loc>
@@ -229,7 +229,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cjampon_mont_dal_clap/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-12-16</lastmod>
+      <lastmod>2026-02-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/cjampon_nubi/</loc>
@@ -277,7 +277,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/cozarel_bas_traversata/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-01-26</lastmod>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/coz_sgrant/</loc>
@@ -385,7 +385,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/deneal_diretta_sud/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-12-16</lastmod>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/domanzon_cuole/</loc>
@@ -445,7 +445,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/giracul_bisa/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-12-05</lastmod>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/glemine/</loc>
@@ -469,7 +469,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_miez/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-11-14</lastmod>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_scluse_ombrenum/</loc>
@@ -944,6 +944,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2024-09-04</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/stavoli_traversata_simon/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-02-19</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/taiet_cengla_alta/</loc>
