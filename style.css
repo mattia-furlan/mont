@@ -40,8 +40,10 @@ body {
   display: flex;
   margin: 0 auto;
 }
+#wrapper .main {
+  margin-top: 40px;
+}
 #wrapper .main p {
-  max-width: 75%;
   text-align: justify;
   padding-left: 2px;
   padding-right: 2px;
@@ -49,6 +51,24 @@ body {
 #wrapper .main .three-s {
   text-align: center;
   margin: 10px auto;
+}
+#wrapper .main .foto_esc {
+  max-width: 100%;
+  margin: 5px 0 20px;
+}
+#wrapper .main .foto_esc_vert {
+  max-width: 66.66%;
+  margin: 5px 0 25px;
+  border-radius: 5px;
+}
+#wrapper .main .due_vert {
+  display: flex;
+  margin: 5px 0 25px;
+}
+#wrapper .main .due_vert img {
+  margin-right: 20px;
+  flex: 1;
+  max-width: 35%;
 }
 
 h1 {
@@ -208,10 +228,11 @@ h3 {
  * PAGE
  ************************************/
 #page {
-  flex: 1;
-  flex-grow: 1;
+  max-width: 780px;
+  margin: 0 auto;
   padding: 40px;
-  min-width: 0; /* important: fixes overflow issues */
+  min-width: 0;
+  /* important: fixes overflow issues */
   font-size: 14px;
   overflow-x: hidden;
 }
@@ -256,11 +277,6 @@ h3 {
 /************************************
  * INTRO BLOCK
  ************************************/
-.intro-wrapper {
-  width: 75%;
-  margin: 20px auto;
-}
-
 .intro {
   display: table;
   margin: auto;
@@ -295,7 +311,6 @@ h3 {
  * TITLES
  ************************************/
 #header {
-  width: 75%;
   margin: auto;
   background: darkslategray;
   color: white;
@@ -321,39 +336,6 @@ h3 {
   font-size: 14px;
   font-style: italic;
   padding: 10px;
-}
-
-/************************************
- * GALLERY BLOCKS
- ************************************/
-.foto_esc {
-  max-width: 75%;
-  margin: 5px 0 20px;
-}
-
-.foto_esc_vert {
-  max-width: 50%;
-  margin: 5px 0 25px;
-  border-radius: 5px;
-}
-
-.due_vert,
-.tre_vert {
-  display: flex;
-  margin: 5px 0 25px;
-}
-.due_vert img,
-.tre_vert img {
-  margin-right: 20px;
-}
-
-.due_vert img {
-  flex: 1;
-  max-width: 35%;
-}
-
-.tre_vert img {
-  max-width: 28%;
 }
 
 /************************************
@@ -517,7 +499,8 @@ iframe {
   /* small phones / large phones */
   html {
     font-size: 16px;
-  } /* baseline */
+  }
+  /* baseline */
   h1 {
     font-size: clamp(1.5rem, 2.5vw + 1rem, 2.25rem);
   }
@@ -538,8 +521,10 @@ iframe {
   }
   #sidenav {
     position: fixed;
-    inset: 0 auto 0 0; /* left edge, full height */
-    width: min(85vw, 260px); /* comfortable width on phones */
+    inset: 0 auto 0 0;
+    /* left edge, full height */
+    width: min(85vw, 260px);
+    /* comfortable width on phones */
     transform: translateX(-100%);
     transition: transform 0.25s ease;
   }
@@ -548,13 +533,18 @@ iframe {
   }
   #page {
     display: flex;
+    flex: 1;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
     flex-direction: column;
     padding: 15px;
   }
   #page #header {
     gap: 12px;
     align-items: center;
-    padding: calc(8px + env(safe-area-inset-top)) 12px 8px 12px; /* respect notches */
+    padding: calc(8px + env(safe-area-inset-top)) 12px 8px 12px;
+    /* respect notches */
     min-height: 0;
     display: flex;
     flex-direction: column;
@@ -578,7 +568,7 @@ iframe {
     width: 100%;
     margin-top: 0;
   }
-  #page .main p {
+  #page .main main-item {
     max-width: 100%;
   }
   #page .main .foto_esc {
@@ -589,18 +579,21 @@ iframe {
     max-width: 100%;
     border-radius: 5px;
   }
-  #page .main .due_vert,
-  #page .main .tre_vert {
-    margin: 0;
+  #page .main .due_vert {
     padding: 0;
     display: flex;
     flex-direction: column;
   }
-  #page .main .due_vert img,
-  #page .main .tre_vert img {
+  #page .main .due_vert img {
     margin-top: 8px;
     max-height: 100%;
     max-width: 100%;
+  }
+  #page .main .due_vert:has(+ .due_vert) {
+    margin-bottom: 0;
+  }
+  #page .main .due_vert + .due_vert {
+    margin-top: 0;
   }
   #page .main img {
     width: 100%;
@@ -618,7 +611,8 @@ iframe {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: calc(8px + env(safe-area-inset-top)) 12px 8px 12px; /* respect notches */
+    padding: calc(8px + env(safe-area-inset-top)) 12px 8px 12px;
+    /* respect notches */
     min-height: 48px;
   }
   .topbar-title {
@@ -654,7 +648,8 @@ iframe {
   /* Prevent body scroll when menu open (we’ll toggle this class on body) */
   .body-lock {
     overflow: hidden;
-    height: 100vh; /* prevents body bouncing on iOS Safari */
+    height: 100vh;
+    /* prevents body bouncing on iOS Safari */
   }
   /* Motion preference */
 }
