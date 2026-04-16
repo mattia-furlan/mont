@@ -553,7 +553,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/malplana_sotpecol/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-03-16</lastmod>
+      <lastmod>2026-04-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cima_bel_pra/</loc>
@@ -721,7 +721,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/pale_ciuone_ciolesan_dx/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-01-24</lastmod>
+      <lastmod>2026-04-13</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pale_ciuone_cresta/</loc>
@@ -788,6 +788,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2026-01-12</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_cengia_perfetta/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-04-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pisimoni_sud/</loc>
