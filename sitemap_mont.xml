@@ -217,7 +217,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/ciolesan_pale_ciuone/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-05-07</lastmod>
+      <lastmod>2026-04-22</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/ciuc_mucul_vallisetta/</loc>
@@ -722,6 +722,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2026-04-13</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/pale_ciuone_ciolesan_sx/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-04-22</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/pale_ciuone_cresta/</loc>
