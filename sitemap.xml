@@ -553,7 +553,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/malplana_sotpecol/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-04-16</lastmod>
+      <lastmod>2026-05-08</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/marmarole_cima_bel_pra/</loc>
@@ -1052,6 +1052,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-08-29</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/val_montina_cima_collalto/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-05-08</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/vetta_criuze/</loc>
