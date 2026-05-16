@@ -472,10 +472,16 @@
       <lastmod>2026-02-12</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/jof_di_miez_rampa/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-05-16</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_miez/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2026-02-20</lastmod>
+      <lastmod>2026-05-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/jof_scluse_ombrenum/</loc>
@@ -643,7 +649,7 @@
       <loc>https://mattia-furlan.github.io/mont/escursioni/montasio_via_dogna_amalia/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
-      <lastmod>2025-12-01</lastmod>
+      <lastmod>2026-05-16</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/monte_canale/</loc>
