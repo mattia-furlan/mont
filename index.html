@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In pausa</title>
+    <style>
+        /* CSS to handle the dark theme and layout */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #0a0a0a; /* Very dark background */
+            color: #ffffff; /* White text */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            /* Flexbox centers everything perfectly */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        img {
+            /* Makes the image responsive for mobile */
+            max-width: 90%; 
+            height: auto;
+            max-height: 60vh; /* Prevents it from taking up the whole screen height */
+            object-fit: cover;
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8); /* Adds depth against the dark background */
+        }
+
+        /* Adjustments for slightly larger screens */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+            img {
+                max-width: 600px; /* Limits the max width on desktops */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>In pausa</h1>
+    
+    <img src="torrioni.JPG" alt="Immagine di pausa">
+
+</body>
+</html>
