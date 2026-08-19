@@ -856,6 +856,12 @@
       <lastmod>2025-10-02</lastmod>
    </url>
    <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/preti_via_triestini/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-08-19</lastmod>
+   </url>
+   <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/provagna_cengla_mus/</loc>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -1028,6 +1034,12 @@
       <changefreq>monthly</changefreq>
       <priority>1</priority>
       <lastmod>2025-09-01</lastmod>
+   </url>
+   <url>
+      <loc>https://mattia-furlan.github.io/mont/escursioni/tauri_studlgrat/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <lastmod>2026-08-17</lastmod>
    </url>
    <url>
       <loc>https://mattia-furlan.github.io/mont/escursioni/thengia_danut/</loc>
