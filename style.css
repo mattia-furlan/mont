@@ -49,8 +49,13 @@ body {
   padding-right: 2px;
 }
 #wrapper .main .three-s {
-  text-align: center;
-  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1;
 }
 #wrapper .main .foto_esc {
   max-width: 100%;
@@ -60,6 +65,24 @@ body {
   max-width: 66.66%;
   margin: 5px 0 25px;
   border-radius: 5px;
+}
+#wrapper .main .foto_libro {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#wrapper .main .foto_centrata {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#wrapper .main p.desc_centrata {
+  text-align: center;
 }
 #wrapper .main .due_vert {
   display: flex;
@@ -578,6 +601,10 @@ iframe {
     max-height: 100%;
     max-width: 100%;
     border-radius: 5px;
+  }
+  #page .main .foto_libro {
+    margin-top: 10px;
+    max-width: 100%;
   }
   #page .main .due_vert {
     padding: 0;
