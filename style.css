@@ -40,15 +40,7 @@ body {
   display: flex;
   margin: 0 auto;
 }
-#wrapper .main {
-  margin-top: 40px;
-}
-#wrapper .main p {
-  text-align: justify;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-#wrapper .main .three-s {
+#wrapper .three-s {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -56,6 +48,14 @@ body {
   color: #555;
   font-size: 1.05rem;
   line-height: 1;
+}
+#wrapper .main {
+  margin-top: 40px;
+}
+#wrapper .main p {
+  text-align: justify;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 #wrapper .main .foto_esc {
   max-width: 100%;
