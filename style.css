@@ -254,6 +254,7 @@ h3 {
   max-width: 780px;
   margin: 0 auto;
   padding: 40px;
+  padding-bottom: 0;
   min-width: 0;
   /* important: fixes overflow issues */
   font-size: 14px;
