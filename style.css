@@ -66,6 +66,9 @@ body {
   margin: 5px 0 25px;
   border-radius: 5px;
 }
+#wrapper .main .foto_mobile {
+  display: none;
+}
 #wrapper .main .foto_libro {
   display: block;
   margin: auto;
@@ -602,6 +605,12 @@ iframe {
     max-height: 100%;
     max-width: 100%;
     border-radius: 5px;
+  }
+  #page .main .foto_mobile {
+    display: inline;
+  }
+  #page .main .foto_desktop {
+    display: none;
   }
   #page .main .foto_libro {
     margin-top: 10px;
