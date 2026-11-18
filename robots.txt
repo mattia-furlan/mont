@@ -1,5 +1,112 @@
+# robots.txt — https://mattia-furlan.github.io/mont/
+#
+# I motori di ricerca sono i benvenuti; i crawler usati per addestrare
+# modelli di intelligenza artificiale e i chatbot non lo sono.
+# Le regole per un User-agent specifico hanno la precedenza su quelle di "*".
+
 User-agent: *
 Allow: /
+
+
+# ---------------------------------------------------------------------------
+# OpenAI
+# ---------------------------------------------------------------------------
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Anthropic (Claude)
+# ---------------------------------------------------------------------------
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Google (Gemini / Vertex AI). Googlebot resta permesso: serve alla ricerca.
+# Google-Extended controlla l'uso dei contenuti per l'addestramento di Gemini.
+# ---------------------------------------------------------------------------
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Apple, Meta, Amazon, Microsoft
+# ---------------------------------------------------------------------------
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Altri crawler AI / dataset
+# ---------------------------------------------------------------------------
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: MistralAI-User
+Disallow: /
 
 
 Sitemap: https://mattia-furlan.github.io/mont/sitemap.xml
